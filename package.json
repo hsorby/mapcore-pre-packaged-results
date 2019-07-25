@@ -1,6 +1,6 @@
 {
   "name": "@abi-software/mapcore-pre-packaged-results",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "MAPcore Pre-packaged Results.",
   "main": "build/mapcore-pre-packaged-results.js",
   "files": [
