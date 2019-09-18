@@ -1,7 +1,6 @@
 
 exports.mapcore_pre_packaged_results_module = function()  {
 
-
   this.get_results = () => {
     let results = [
     /*
@@ -49,7 +48,7 @@ exports.mapcore_pre_packaged_results_module = function()  {
         "BlackfynnID": "",
         "Dataset Title": "Mapping Cellular Gene Expression in the Rat Heart from Image to Scaffold",
         "Description": "Rat heart geometric 3Scan (www.3scan.com) data for both ventricles and both atria from the Schwaber/Vadigepalli/Cheng group has been fitted with a 3D rat heart scaffold. The locations of a cluster of 151 ICN cell samples that have been lifted for RNA-Seq analysis (molecular cell body transcript data) from a region of the left atrium, from a different animal, are indicated on the 3D scaffold.",
-        'Example Image': 'https://sparc.biolucida.net:443/image?c=MTA2LWNvbC0zMi0wLTAtMS0w',
+        'Example Image': 'https://sparc.biolucida.net:443/image?c=MzI2LWNvbC0zMi0wLTAtMS0w',
         'Scaffold': {'uri': 'https://mapcore-bucket1.s3-us-west-2.amazonaws.com/ISAN/scaffold/use_case4/rat_heart_metadata.json', 'species': 'rat', 'organ': 'heart', 'annotation': 'UBERON:0000948'},
         'DataViewer': {'uri': 'https://mapcore-bucket1.s3-us-west-2.amazonaws.com/ISAN/csv-data/use-case-4/RNA_Seq.csv', 'species': 'Rattus norvegicus|NCBITaxon:10116', 'organ': 'heart', 'annotation': 'UBERON:0000948'},
       },
@@ -73,18 +72,18 @@ exports.mapcore_pre_packaged_results_module = function()  {
         "Example Image": "",
         'Scaffold': {'uri': 'https://mapcore-bucket1.s3-us-west-2.amazonaws.com/ISAN/scaffold/colon/colon_metadata.json', 'species': 'Mouse', 'organ': 'colon', 'annotation': 'UBERON:0001155'},
       },
-    ]
+    ];
 
     return results
-  }
+  };
 
   this.get_flatmap_results = () => {
     let results = get_results()
     return [results[0], results[1]]
-  }
+  };
 
   const initialise = () => {
-  }
+  };
 
   initialise();
-}
+};

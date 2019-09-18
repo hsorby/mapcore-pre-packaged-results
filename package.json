@@ -1,6 +1,6 @@
 {
   "name": "@abi-software/mapcore-pre-packaged-results",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "MAPcore Pre-packaged Results.",
   "main": "build/mapcore-pre-packaged-results.js",
   "files": [
@@ -9,7 +9,6 @@
     "README.rst",
     "build/mapcore-pre-packaged-results.js",
     "build/mapcore-pre-packaged-results.js.map",
-    "static",
     "webpack.config.js"
   ],
   "scripts": {
