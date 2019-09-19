@@ -83,6 +83,18 @@ exports.mapcore_pre_packaged_results_module = function()  {
         "Example Image": "",
         'Scaffold': {'uri': 'https://mapcore-bucket1.s3-us-west-2.amazonaws.com/ISAN/scaffold/colon/colon_metadata.json', 'species': 'Mouse', 'organ': 'colon', 'annotation': 'UBERON:0001155'},
       },
+      {
+        "Dataset Title": "Autonomic Nerve Stimulation Simulation",
+        "Description": "This data links to a simulation experiment of the autonomic nerves innervating the heart.",
+        "Example Image": "",
+        "Simulation": {
+          "uri": "https://osparc.io/study/194bb264-a717-11e9-9dff-02420aff2767",
+          'species': 'Human',
+          'organ': 'heart',
+          'annotation': 'UBERON:0000948',
+          'name': 'Autonomic Nerve Stimulation'
+        }
+      },
     ];
 
     return results
