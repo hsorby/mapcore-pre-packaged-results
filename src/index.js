@@ -30,6 +30,13 @@ exports.mapcore_pre_packaged_results_module = function()  {
         "Example Image": "",
         "Scaffold": {'uri': 'https://mapcore-bucket1.s3-us-west-2.amazonaws.com/ISAN/scaffold/use_case1/fitted_heart_metadata.json', 'species': 'Porcine', 'organ': 'heart', 'annotation': 'UBERON:0000948'}
       },
+       {
+        "BlackfynnID": "",
+        "Dataset Title": "P1760 - Intraventricular Occlusion of Pig Heart",
+        "Description": "Electrophysiological data from the Shivkumar/Ardell group. This data is from an electrode array placed on the surface of a porcine heart while the it undergoes ventricular occlusion",
+        "Example Image": "",
+        "DataViewer": {'uri': "https://mapcore-bucket1.s3-us-west-2.amazonaws.com/ISAN/csv-data/use-case-1/P1760+IVC+Occ+trimed.csv"}
+      },
       {
         "BlackfynnID": "",
         "Dataset Title": "Cell Body Segmentation and Electrophysiology Data: Stellate Ganglion",
@@ -42,7 +49,7 @@ exports.mapcore_pre_packaged_results_module = function()  {
           'annotation': 'UBERON:0002440'
         },
         "DataViewer": {
-          "uri": "https://mapcore-bucket1.s3-us-west-2.amazonaws.com/ISAN/csv-data/use-case-2/Sample_1_18907001_channel_1.csv",
+          "uri": "https://mapcore-bucket1.s3-us-west-2.amazonaws.com/ISAN/csv-data/stellate/directory-meta.json",
           'species': 'Mouse',
           'organ': 'nerve',
           'annotation': 'UBERON:0002440'
