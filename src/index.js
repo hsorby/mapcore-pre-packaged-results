@@ -32,8 +32,8 @@ exports.mapcore_pre_packaged_results_module = function()  {
       },
        {
         "BlackfynnID": "",
-        "Dataset Title": "P1760 IVC Occ trimed.csv",
-        "Description": "Electrophysiological data from the Shivkumar/Ardell group. This data is from an electrode array placed on the surface of the heart while the heart undergoes venticular occlusion",
+        "Dataset Title": "P1760 - Intraventricular Occlusion of Pig Heart",
+        "Description": "Electrophysiological data from the Shivkumar/Ardell group. This data is from an electrode array placed on the surface of a porcine heart while the it undergoes ventricular occlusion",
         "Example Image": "",
         "DataViewer": {'uri': "https://mapcore-bucket1.s3-us-west-2.amazonaws.com/ISAN/csv-data/use-case-1/P1760+IVC+Occ+trimed.csv"}
       },
