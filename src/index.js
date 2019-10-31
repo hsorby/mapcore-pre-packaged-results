@@ -32,6 +32,14 @@ exports.mapcore_pre_packaged_results_module = function()  {
       },
       {
         "BlackfynnID": "",
+        "Dataset Title": "Mapping Cellular Gene Expression in the Rat Heart from Image to Scaffold",
+        "Description": "Rat heart geometric 3Scan (www.3scan.com) data for both ventricles and both atria from the Schwaber/Vadigepalli/Cheng group has been fitted with a 3D rat heart scaffold. The locations of a cluster of 151 ICN cell samples that have been lifted for RNA-Seq analysis (molecular cell body transcript data) from a region of the left atrium, from a different animal, are indicated on the 3D scaffold.",
+        'Example Image': 'https://sparc.biolucida.net:443/image?c=MzI2LWNvbC0zMi0wLTAtMS0w',
+        'Scaffold': {'uri': 'https://mapcore-bucket1.s3-us-west-2.amazonaws.com/ISAN/scaffold/use_case4/rat_heart_metadata.json', 'species': 'rat', 'organ': 'heart', 'annotation': 'UBERON:0000948'},
+        'DataViewer': {'uri': 'https://mapcore-bucket1.s3-us-west-2.amazonaws.com/ISAN/csv-data/use-case-4/RNA_Seq.csv', 'species': 'Rattus norvegicus|NCBITaxon:10116', 'organ': 'heart', 'annotation': 'UBERON:0000948'},
+      },
+      {
+        "BlackfynnID": "",
         "Dataset Title": "Cell Body Segmentation and Electrophysiology Data: Stellate Ganglion",
         "Description": "Mouse stellate ganglion neuronal cell shape data from the Shivkumar/Tompkins group are displayed in a 3D stellate scaffold. 15 neurons, including their cell bodies, axons and dendrites, are displayed on five cross-sections of the stellate with the high resolution image displayed as a texture map. Electrophysiological data from these cells can be visualized by clicking on the cell. Note that the scaffold in this example is a geometrically simple shape designed to register the images in the appropriate anatomical location. The shape of the scaffold will be improved once more data are available to define the stellate boundaries.",
         "Example Image": "",
@@ -54,14 +62,6 @@ exports.mapcore_pre_packaged_results_module = function()  {
         "Description": "Mouse heart immunohistochemical mapping of neural pathways in cleared heart (sham heart 4) stained with PGP9.5 (glycoprotein surface axonal antibody labelling) from the Shivkumar/Pradeep group is displayed in a 3D mouse heart scaffold that has been fitted to the segmented heart surface data from Sham Heart 44, which provides a more extensive geometric dataset.",
         "Example Image": "",
         "Scaffold": {'uri': 'https://mapcore-bucket1.s3-us-west-2.amazonaws.com/ISAN/scaffold/use_case3/mouse_heart_metadata.json', 'species': 'Mouse', 'organ': 'heart', 'annotation': 'UBERON:0002440'}
-      },
-      {
-        "BlackfynnID": "",
-        "Dataset Title": "Mapping Cellular Gene Expression in the Rat Heart from Image to Scaffold",
-        "Description": "Rat heart geometric 3Scan (www.3scan.com) data for both ventricles and both atria from the Schwaber/Vadigepalli/Cheng group has been fitted with a 3D rat heart scaffold. The locations of a cluster of 151 ICN cell samples that have been lifted for RNA-Seq analysis (molecular cell body transcript data) from a region of the left atrium, from a different animal, are indicated on the 3D scaffold.",
-        'Example Image': 'https://sparc.biolucida.net:443/image?c=MzI2LWNvbC0zMi0wLTAtMS0w',
-        'Scaffold': {'uri': 'https://mapcore-bucket1.s3-us-west-2.amazonaws.com/ISAN/scaffold/use_case4/rat_heart_metadata.json', 'species': 'rat', 'organ': 'heart', 'annotation': 'UBERON:0000948'},
-        'DataViewer': {'uri': 'https://mapcore-bucket1.s3-us-west-2.amazonaws.com/ISAN/csv-data/use-case-4/RNA_Seq.csv', 'species': 'Rattus norvegicus|NCBITaxon:10116', 'organ': 'heart', 'annotation': 'UBERON:0000948'},
       },
       {
         "BlackfynnID": "",
